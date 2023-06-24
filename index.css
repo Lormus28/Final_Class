@@ -1,6 +1,16 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 .title{
     display: flex;
     justify-content: center;
     color: blueviolet;
-    
+    border-radius: 4px;
+    font-weight: 16px ;
+    padding: 5px;
+    align-items: center;
+    background-color: aquamarine;
 }
