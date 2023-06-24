@@ -1,7 +1,12 @@
+*{
+    font-family: 'Belanosima', sans-serif; 
+}
+
 main{
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    font-family: 'Belanosima', sans-serif;
 }
 
 .title{
@@ -9,8 +14,33 @@ main{
     justify-content: center;
     color: blueviolet;
     border-radius: 4px;
-    font-weight: 16px ;
+    font-weight: 15px;
     padding: 5px;
+    width: 200px;
+    margin: 10px 0px;
+    font-size: 30px;
     align-items: center;
     background-color: aquamarine;
+}
+
+.gridContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.gridContainer img{
+    border-radius: 10px;
+}
+
+.card h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card p{
+    font-size: 20px;
+    color: blue;
+    font-weight: 400;
 }
